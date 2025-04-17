@@ -7,7 +7,7 @@ int main(void) {
 
     for (int i = 0; s1[i]; i++)
     {
-        if ('a' <= s1[i] && s1[i] <= 'z')
+        if ('a' <= s1[i])
             s1[i] -= 32;
         else
             s1[i] += 32;
